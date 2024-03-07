@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6dead68fgqx"]
+
+[ext_resource type="PackedScene" uid="uid://dcwspkk17w1g8" path="res://tile_map.tscn" id="1_fjlbr"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="TileMap" parent="." instance=ExtResource("1_fjlbr")]
+layer_0/tile_data = PackedInt32Array(0, 196608, 14, 65536, 0, 12, 131072, 0, 12)
