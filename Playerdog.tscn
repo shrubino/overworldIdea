@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://coy0hjadyebg7"]
+
+[ext_resource type="Texture2D" uid="uid://dx24fkxtp8wna" path="res://bobs001.png" id="1_b0t5f"]
+[ext_resource type="Script" path="res://Playerdog.gd" id="2_3111o"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(-8, -8)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_b0t5f")
+script = ExtResource("2_3111o")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-2, 0)
+zoom = Vector2(3, 3)
